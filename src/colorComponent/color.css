@@ -1,0 +1,62 @@
+main {
+  background-color: rgb(221, 221, 255);
+}
+.Colorsection {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.Colorsection h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 3px;
+  font-size: 20px;
+}
+.Colorsection input {
+  margin: 10px;
+  padding: 8px;
+}
+.Colorsection button {
+  width: 130px;
+  padding: 9px;
+  background-color: rgb(53, 53, 246);
+  border: none;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.Colorsection button:hover {
+  opacity: 0.8;
+}
+.error {
+  border: 1.5px solid red;
+  outline: none;
+}
+.colorsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.singleColor {
+  min-width: 150px;
+  min-height: 150px;
+  padding: 10px;
+  cursor: pointer;
+}
+.lightColor {
+  color: white;
+}
+.singleColor p {
+  padding: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.copyTxt {
+  color: grey;
+  background-color: black;
+  margin: 3px;
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+@media (max-width: 576px) {
+  .Colorsection {
+    display: block;
+  }
+}
